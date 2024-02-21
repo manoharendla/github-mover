@@ -134,6 +134,7 @@ def replace_string_in_files(directory):
                         content = f.read()
                         for key, value in replace_dict.items():
                             content = content.replace(key, value)
+                            print(f"content: {content}")
                     with open(file_path, "w") as f:
                         f.write(content)
 
