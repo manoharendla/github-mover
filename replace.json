@@ -1,0 +1,5 @@
+{
+    "artifactory.a.office.com": "artifactory-a.office.com",
+    "github.a.office.com": "github-a.office.com",
+    "FROM platform/org/test": "FROM artifactory-a.office.com/platform/org/test"
+}
